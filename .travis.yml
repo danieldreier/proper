@@ -3,6 +3,7 @@ language: erlang
 script: "make all"
 before_install: dialyzer --build_plt --apps erts kernel stdlib compiler crypto
 otp_release:
+   - 18.0
    - 17.4
    - 17.1
    - 17.0
